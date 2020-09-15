@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  opacity: 0.8;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  padding: 0 30px;
+  transition: 0.5s;
+}
+
+.navbar .top {
+  background: transparent;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: blue 2px solid;
+  color: chartreuse;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+/* Header */
+
+.first .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  color: #f4f4f4;
+  font-weight: 100;
+}
+
+.first .content h1 {
+  font-size: 75px;
+}
+/*.first.content h3 {
+  font-size: 25px;
+}*/
+
+.first::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.first * {
+  z-index: 10;
+}
+
+.first.blog {
+  background: url("./image_logo/web_1.jpg") no-repeat center center/cover;
+  height: 60vh;
+}
+
+/*post*/
+.blog {
+  padding: 50px 30px;
+}
+.blog h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: maroon solid 1px;
+}
+.blog .meta {
+  margin-bottom: 30px;
+}
+.blog img {
+  width: 500px;
+  border-radius: 10%;
+  display: block;
+  margin: 0 auto 30px;
+}
+.blog .container img {
+  width: 500px;
+  border-radius: 10%;
+  display: block;
+  margin: 0 auto 50px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
+}
+
+.footer .social > * {
+  margin-right: 50px;
+}
+
+
+/* selection contact*/
+#contact{
+  display: flex;
+  }
+  #contact .map, #contact .contact-form {
+      flex: 1;
+  }
+  #contact .contact-form .form-group {
+  margin: 0.75rem;
+  }
+  
+  #contact .contact-form label{
+      display: block;
+  }
+  #contact .contact-form input,
+  #contact .contact-form textarea {
+      width: 100%;
+      padding: 0.5rem;
+  }
+  
+  

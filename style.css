@@ -1,0 +1,55 @@
+.right {
+  text-align: right;
+}
+h3 {
+  text-align: right;
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.p-2 h3 {
+  text-align: center;
+  color: #0000cd;
+}
+
+.p-2 p {
+  text-align: justify;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.text-center {
+  font-size: 50px;
+  color: green;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0000cd;
+  color: white;
+  text-align: center;
+}
+
+/* Button 
+.btn {
+  cursor: pointer;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  color: #000;
+  background-color: salmon;
+}*/

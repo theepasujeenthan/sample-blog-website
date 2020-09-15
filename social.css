@@ -1,0 +1,39 @@
+/* Header */
+
+.first .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  color: #f4f4f4;
+  font-weight: 100;
+}
+
+.first .content h1 {
+  font-size: 75px;
+}
+.first .content h3 {
+  font-size: 25px;
+}
+
+.first::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.first * {
+  z-index: 10;
+}
+
+.first.blog {
+  background: url("./image_logo/social_1.jpg") no-repeat center center/cover;
+  height: 60vh;
+}
